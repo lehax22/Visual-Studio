@@ -1,0 +1,6 @@
+2017/07/05 12:33:20.846|Debug|XML File has been uploaded
+2017/07/05 12:33:33.281|Debug|Open session
+2017/07/05 12:35:35.416|Debug|XML File has been uploaded
+2017/07/05 12:35:40.245|Debug|Open session
+2017/07/05 13:09:12.212|Debug|XML File has been uploaded
+2017/07/05 13:09:21.305|Debug|Open session
