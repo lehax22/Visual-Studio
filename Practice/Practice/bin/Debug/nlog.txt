@@ -4,3 +4,41 @@
 2017/07/05 12:35:40.245|Debug|Open session
 2017/07/05 13:09:12.212|Debug|XML File has been uploaded
 2017/07/05 13:09:21.305|Debug|Open session
+2017/07/06 11:05:23.144|Debug|XML File has been uploaded
+2017/07/06 11:05:35.319|Debug|Open session
+2017/07/09 16:04:38.949|Debug|XML File has been uploaded
+2017/07/09 16:04:50.083|Debug|Open session
+2017/07/09 16:06:23.036|Debug|XML File has been uploaded
+2017/07/09 16:07:13.960|Debug|XML File has been uploaded
+2017/07/09 16:07:19.078|Debug|Open session
+2017/07/09 16:10:12.022|Debug|XML File has been uploaded
+2017/07/09 16:10:17.063|Debug|Open session
+2017/07/09 16:21:36.052|Debug|XML File has been uploaded
+2017/07/09 16:21:46.233|Debug|Open session
+2017/07/09 16:23:10.462|Debug|XML File has been uploaded
+2017/07/09 16:23:15.500|Debug|Open session
+2017/07/09 17:05:03.913|Debug|Configuration collected
+2017/07/09 17:05:04.928|Debug|Configuration collected
+2017/07/09 17:05:06.095|Info|Xml file is found
+2017/07/09 17:05:06.095|Info|Xml file is found
+2017/07/09 17:05:06.148|Debug|Configuration collected
+2017/07/09 17:06:03.728|Debug|Configuration collected
+2017/07/09 17:06:04.674|Debug|Configuration collected
+2017/07/09 17:06:05.839|Info|Xml file is found
+2017/07/09 17:06:05.839|Info|Xml file is found
+2017/07/09 17:06:05.894|Debug|Configuration collected
+2017/07/09 18:24:28.845|Debug|Configuration collected
+2017/07/09 18:24:29.331|Debug|Configuration collected
+2017/07/09 18:24:30.569|Info|Xml file is found
+2017/07/09 18:24:30.569|Info|Xml file is found
+2017/07/09 18:24:30.637|Debug|Configuration collected
+2017/07/09 23:45:56.765|Debug|Configuration collected
+2017/07/09 23:45:57.996|Debug|Configuration collected
+2017/07/09 23:45:59.105|Info|Xml file is found
+2017/07/09 23:45:59.105|Info|Xml file is found
+2017/07/09 23:45:59.164|Debug|Configuration collected
+2017/07/10 00:05:52.711|Debug|Configuration collected
+2017/07/10 00:05:53.806|Debug|Configuration collected
+2017/07/10 00:05:54.944|Info|Xml file is found
+2017/07/10 00:05:54.944|Info|Xml file is found
+2017/07/10 00:05:54.988|Debug|Configuration collected

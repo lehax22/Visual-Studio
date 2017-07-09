@@ -1,7 +1,6 @@
 c:\users\alex\documents\visual studio 2015\Projects\Practice\Practice\bin\Debug\Practice.exe.config
 c:\users\alex\documents\visual studio 2015\Projects\Practice\Practice\bin\Debug\Practice.exe
 c:\users\alex\documents\visual studio 2015\Projects\Practice\Practice\bin\Debug\Practice.pdb
-c:\users\alex\documents\visual studio 2015\Projects\Practice\Practice\obj\Debug\Practice.csprojResolveAssemblyReference.cache
 c:\users\alex\documents\visual studio 2015\Projects\Practice\Practice\obj\Debug\Practice.Form1.resources
 c:\users\alex\documents\visual studio 2015\Projects\Practice\Practice\obj\Debug\Practice.Properties.Resources.resources
 c:\users\alex\documents\visual studio 2015\Projects\Practice\Practice\obj\Debug\Practice.csproj.GenerateResource.Cache
@@ -16,3 +15,11 @@ C:\Users\Alex\documents\visual studio 2015\Projects\Practice\Practice\bin\Debug\
 C:\Users\Alex\documents\visual studio 2015\Projects\Practice\Practice\bin\Debug\NLog.xml
 C:\Users\Alex\documents\visual studio 2015\Projects\Practice\Practice\bin\Debug\nunit.framework.dll
 C:\Users\Alex\documents\visual studio 2015\Projects\Practice\Practice\bin\Debug\nunit.framework.xml
+c:\Users\Alex\Documents\Visual Studio 2015\Projects\Practice\Practice\bin\Debug\NSubstitute.dll
+c:\Users\Alex\Documents\Visual Studio 2015\Projects\Practice\Practice\bin\Debug\NSubstitute.xml
+c:\Users\Alex\Documents\Visual Studio 2015\Projects\Practice\Practice\bin\Debug\Castle.Core.dll
+c:\Users\Alex\Documents\Visual Studio 2015\Projects\Practice\Practice\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+c:\Users\Alex\Documents\Visual Studio 2015\Projects\Practice\Practice\bin\Debug\Moq.dll
+c:\Users\Alex\Documents\Visual Studio 2015\Projects\Practice\Practice\bin\Debug\Moq.xml
+c:\Users\Alex\Documents\Visual Studio 2015\Projects\Practice\Practice\bin\Debug\ru\Microsoft.VisualStudio.QualityTools.UnitTestFramework.resources.dll
+C:\Users\Alex\Documents\Visual Studio 2015\Projects\Practice\Practice\obj\Debug\Practice.csprojResolveAssemblyReference.cache

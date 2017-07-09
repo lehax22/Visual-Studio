@@ -1,16 +1,17 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.ComponentModel;
 using System.Data;
-using System.Drawing;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.Xml.Linq;
 using System.IO;
 using NHibernate;
 using NLog;
+using Practice.Entity;
+using Practice.Helper;
+using Practice.Helper.XMLParser;
+using Practice.IRepository;
+using Practice.Repository;
 
 namespace Practice
 {
@@ -18,23 +19,15 @@ namespace Practice
     {
 
         private List<Student> studentList;
-
         private Logger logger;
+        private StudentRepository srt;
 
         public Form1()
         {
             InitializeComponent();
 
             logger = LogManager.GetCurrentClassLogger();
-
-            comboBox1.Items.Add("11-501");
-            comboBox1.Items.Add("11-502");
-            comboBox1.Items.Add("11-503");
-            comboBox1.Items.Add("11-504");
-            comboBox1.Items.Add("11-505");
-            comboBox1.Items.Add("11-506");
-            comboBox1.Items.Add("11-507");
-            comboBox1.Items.Add("11-508");
+            srt = new IStudentRepository();
         }
 
         //load
@@ -45,44 +38,22 @@ namespace Practice
             string filename = openFileDialog1.FileName;
             textBox1.Text = filename;
 
-            try
-            {
-                var doc = XDocument.Load(filename);
+            XMLParser.parse(filename);
+            logger.Info("Xml file is found");
+            
+            studentList = srt.ReadAll();
 
-                logger.Debug("XML File has been uploaded");
-
-                studentList = doc.Descendants("Student").Select(d =>
-                new Student
-                {
-                    FirstName = d.Element("FirstName").Value,
-                    MiddleName = d.Element("MiddleName").Value,
-                    LastName = d.Element("LastName").Value,
-                    GroupNumber = d.Element("GroupNumber").Value,
-                    Email = d.Element("Email").Value
-                }).ToList();
-
-                saivingOnBD(studentList);
-
-                viewing(studentList);
-            } catch (FileNotFoundException ex)
-            {
-                logger.Debug(ex.Message);
-            } 
+            viewing(studentList);
+            groupnumberbox(studentList);
             
         }
 
-        //saivingOnBD
-        private void saivingOnBD(List<Student> st)
+        private void groupnumberbox(List<Student> studentList)
         {
-            ISession session = NHibertnateSession.OpenSession();
-
-            logger.Debug("Open session");
-            
-            foreach(var s in st)
+            foreach (var s in (from t in studentList select t.GroupNumber).Distinct())
             {
-                session.Save(s);
+                comboBox1.Items.Add(s);
             }
-            session.Close();
         }
 
         //viewing
