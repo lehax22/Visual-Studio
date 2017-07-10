@@ -15,6 +15,6 @@ namespace Practice.Repository
         List<Student> ReadAll();
         void Update(Student student);
         void Delete(int ID);
-        void DeleteAll();
+        //void DeleteAll();
     }
 }

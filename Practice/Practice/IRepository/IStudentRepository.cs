@@ -20,15 +20,17 @@ namespace Practice.IRepository
             {
                 try
                 {
+                    List<String> list = (from t in ReadAll() select t.Email).ToList();
                     foreach (var s in studentList)
                     {
-                        if (GetEmailStudent(s.Email))
+                        /*if (GetEmailStudent(s.Email))
                         {
                             continue;
                         } else
                         {
                             session.Save(s);
-                        }
+                        }*/
+                        if (!list.Contains(s.Email)) { session.Save(s); }
                     }
                 }
                 catch (Exception ex)
@@ -56,13 +58,13 @@ namespace Practice.IRepository
             }
         }
 
-        public void DeleteAll()
+        /*public void DeleteAll()
         {
             using (ISession session = NHibernateSession.OpenSession())
             {
                 session.CreateQuery("DELETE FROM Student").ExecuteUpdate();
             }
-        }
+        }*/
 
         //Read student
         public Student Read(int ID)
@@ -93,11 +95,11 @@ namespace Practice.IRepository
             }
         }
 
-        public bool GetEmailStudent(string Email)
+        /*public bool GetEmailStudent(string Email)
         {
             List<Student> studentList = ReadAll();
             return studentList.Any(s => s.Email == Email);
-        }
+        }*/
 
         public String GetNameStudent(int ID)
         {

@@ -35,7 +35,7 @@ namespace Practice.Helper.XMLParser
                      }).ToList();
 
                     StudentRepository st = new IStudentRepository();
-                    st.DeleteAll();
+                    //st.DeleteAll();
                     st.AddRange(studentList);
 
                 }

@@ -38,6 +38,7 @@ namespace Practice
             string filename = openFileDialog1.FileName;
             textBox1.Text = filename;
 
+            SchemaExp.CreateDataBaseSchema();
             XMLParser.parse(filename);
             logger.Info("Xml file is found");
             
