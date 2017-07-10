@@ -30,7 +30,7 @@ namespace Practice.IRepository
                         {
                             session.Save(s);
                         }*/
-                        if (!list.Contains(s.Email)) { session.Save(s); }
+                        if (!list.Contains(s.Email)) { session.Save(s); list.Add(s.Email); }
                     }
                 }
                 catch (Exception ex)
