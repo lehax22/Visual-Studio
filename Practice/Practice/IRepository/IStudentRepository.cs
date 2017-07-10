@@ -22,7 +22,13 @@ namespace Practice.IRepository
                 {
                     foreach (var s in studentList)
                     {
-                        session.Save(s);
+                        if (GetEmailStudent(s.Email))
+                        {
+                            continue;
+                        } else
+                        {
+                            session.Save(s);
+                        }
                     }
                 }
                 catch (Exception ex)
@@ -85,6 +91,12 @@ namespace Practice.IRepository
             {
                 session.SaveOrUpdate(student);
             }
+        }
+
+        public bool GetEmailStudent(string Email)
+        {
+            List<Student> studentList = ReadAll();
+            return studentList.Any(s => s.Email == Email);
         }
 
         public String GetNameStudent(int ID)
