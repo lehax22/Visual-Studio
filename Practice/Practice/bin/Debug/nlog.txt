@@ -1,27 +1,5 @@
-2017/07/10 15:14:38.787|Debug|Configuration collected
-2017/07/10 15:14:40.119|Debug|Configuration collected
-2017/07/10 15:14:40.147|Debug|Configuration collected
-2017/07/10 15:14:40.640|Debug|Configuration collected
-2017/07/10 15:14:40.745|Debug|Configuration collected
-2017/07/10 15:14:40.853|Debug|Configuration collected
-2017/07/10 15:14:40.900|Debug|Configuration collected
-2017/07/10 15:14:41.053|Debug|Configuration collected
-2017/07/10 15:14:41.137|Debug|Configuration collected
-2017/07/10 15:14:41.259|Debug|Configuration collected
-2017/07/10 15:14:41.454|Debug|Configuration collected
-2017/07/10 15:14:41.498|Debug|Configuration collected
-2017/07/10 15:14:41.654|Debug|Configuration collected
-2017/07/10 15:14:41.691|Debug|Configuration collected
-2017/07/10 15:14:41.860|Debug|Configuration collected
-2017/07/10 15:14:42.064|Debug|Configuration collected
-2017/07/10 15:14:42.101|Debug|Configuration collected
-2017/07/10 15:14:42.258|Debug|Configuration collected
-2017/07/10 15:14:42.312|Debug|Configuration collected
-2017/07/10 15:14:42.450|Info|Xml file is found
-2017/07/10 15:14:42.450|Info|Xml file is found
-2017/07/10 15:14:42.496|Debug|Configuration collected
-2017/07/10 22:41:01.597|Debug|Configuration collected
-2017/07/10 22:41:01.871|Debug|Configuration collected
-2017/07/10 22:41:02.392|Info|Xml file is found
-2017/07/10 22:41:02.392|Info|Xml file is found
-2017/07/10 22:41:02.434|Debug|Configuration collected
+2017/07/11 09:25:28.739|Debug|Configuration collected
+2017/07/11 09:25:29.568|Debug|Configuration collected
+2017/07/11 09:25:31.720|Info|Xml file is found
+2017/07/11 09:25:31.720|Info|Xml file is found
+2017/07/11 09:25:31.800|Debug|Configuration collected

@@ -13,7 +13,7 @@ namespace Practice.Helper
         public static void CreateDataBaseSchema()
         {
             var cfg = new Configuration();
-
+            cfg.Configure();
             new SchemaExport(cfg).Drop(false, true);
             new SchemaExport(cfg).Create(false, true);
         }
