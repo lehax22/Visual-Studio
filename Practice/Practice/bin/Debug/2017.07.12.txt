@@ -1,0 +1,10 @@
+2017/07/12 18:04:56.150|Debug|Configuration collected
+2017/07/12 18:04:56.405|Debug|Configuration collected
+2017/07/12 18:05:00.783|Info|Xml file is found
+2017/07/12 18:05:00.783|Info|Xml file is found
+2017/07/12 18:05:00.828|Debug|Configuration collected
+2017/07/12 18:20:57.933|Debug|Configuration collected
+2017/07/12 18:20:58.164|Debug|Configuration collected
+2017/07/12 18:21:01.941|Info|Xml file is found
+2017/07/12 18:21:01.941|Info|Xml file is found
+2017/07/12 18:21:01.984|Debug|Configuration collected

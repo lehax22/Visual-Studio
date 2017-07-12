@@ -28,6 +28,7 @@ namespace Practice
 
             logger = LogManager.GetCurrentClassLogger();
             srt = new IStudentRepository();
+            stateOfLoad.Visible = false;
         }
 
         //load
@@ -37,10 +38,17 @@ namespace Practice
                 return;
             string filename = openFileDialog1.FileName;
             textBox1.Text = filename;
+            stateOfLoad.Visible = true;
 
             SchemaExp.CreateDataBaseSchema();
+
+            stateOfLoad.Text = "Data from the file loaded...";
             XMLParser.parse(filename);
+
+            stateOfLoad.Text = "Completed";
+            MessageBox.Show("Данные загружены");
             logger.Info("Xml file is found");
+            stateOfLoad.Visible = false;
             
             studentList = srt.ReadAll();
 
@@ -53,7 +61,10 @@ namespace Practice
         {
             foreach (var s in (from t in studentList select t.GroupNumber).Distinct())
             {
-                comboBox1.Items.Add(s);
+                if (!comboBox1.Items.Contains(s))
+                {
+                    comboBox1.Items.Add(s);
+                }
             }
         }
 
@@ -67,8 +78,7 @@ namespace Practice
             }
         }
 
-        //emails
-        private void button3_Click(object sender, EventArgs e)
+        private void comboBox1_SelectedIndexChanged(object sender, EventArgs e)
         {
             string gr = comboBox1.Text;
 
